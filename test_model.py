@@ -7,6 +7,6 @@ def test_model_prediction():
     prediction = model.predict(sample_input)
     assert prediction.shape == (1,), "Prediction output is not correct"
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     test_model_prediction()
     print("✅ Model test passed!")
