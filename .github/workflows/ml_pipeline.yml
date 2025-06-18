@@ -23,3 +23,6 @@ jobs:
 
     - name: Run training
       run: python train_model.py
+
+    - name: Test the model
+       run: python test_model.py
