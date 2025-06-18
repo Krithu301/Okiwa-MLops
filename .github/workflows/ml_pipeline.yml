@@ -1,5 +1,5 @@
 ---
-name: Okiwa Step 2 : Model validation
+name: "Okiwa Step 2 : Model validation"
 
 on:
   push:
