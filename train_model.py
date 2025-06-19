@@ -15,6 +15,6 @@ model = RandomForestClassifier()
 model.fit(X_train, y_train)
 
 # Save model
-joblib.dump(model, 'okiwa_model.pkl')
+joblib.dump(model, "model.pkl")
 
 print("✅ Model trained and saved as okiwa_model.pkl")
