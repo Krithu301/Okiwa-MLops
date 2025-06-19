@@ -25,3 +25,6 @@ jobs:
 
       - name: Run model validation script
         run: python test_model.py
+
+      - name: Train the model
+         run: python train_model.py
