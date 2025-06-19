@@ -1,5 +1,4 @@
----
-name: "Okiwa Step 2 : Model validation"
+name: Okiwa ML Pipeline
 
 on:
   push:
@@ -27,4 +26,5 @@ jobs:
         run: python test_model.py
 
       - name: Train the model
-         run: python train_model.py
+        run: python train_model.py
+
